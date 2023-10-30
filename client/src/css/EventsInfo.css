@@ -1,0 +1,21 @@
+.fieldsName {
+    font-family: 'Helvetica';
+    font-size: 20px;
+    color: rgb(64, 224, 208);
+    text-align: center;
+    margin-top: 2px;
+    padding: 2px;
+}
+
+.fieldsValue {
+    font-family: 'Helvetica';
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 2px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}

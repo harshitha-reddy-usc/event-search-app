@@ -1,0 +1,8 @@
+.events-card {
+    background-color: rgba(169,169,169,0.3) !important;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border: none;
+}

@@ -1,0 +1,41 @@
+.form-card {
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(169, 169, 169, 0.3) !important;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 15px !important;
+}
+
+.card {
+    padding: 0; /* remove the default padding on the card */
+}
+
+.card-body {
+    margin: -1rem; /* add negative margin to the card-body */
+}
+
+
+#heading {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-family: 'Palatino';
+    padding: 2px;
+    margin-top: 10px;
+}
+
+label {
+    font-size: 17px;
+    color: rgb(135,206,250);
+    font-family: 'Helvetica';
+}
+
+
+select.form-control { -webkit-appearance: menulist; }
+
+.required:after {
+    content:" *";
+    color: red;
+}

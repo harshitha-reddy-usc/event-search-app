@@ -1,0 +1,18 @@
+#chevron{
+    text-decoration: underline;
+    color: rgb(135,206,250);
+    font-family: 'Helvetica';
+    font-weight: bold;
+}
+
+/* label {
+    font-size: 17px;
+} */
+
+.Chevron {
+    font-weight: bold;
+}
+
+#chevron2{
+    font-weight: bold;
+}

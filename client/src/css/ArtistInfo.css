@@ -1,0 +1,14 @@
+#noArtists {
+    color: rgb(210, 43, 43);
+    font-weight: bold;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+    stroke: red;
+}
+
+.CircularProgressbar .CircularProgressbar-text{
+    fill:white;
+    font-weight: bold;
+    font-size: 20px;
+}
