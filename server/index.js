@@ -11,9 +11,9 @@ const app = express();
 const axios = require("axios");
 const cors = require("cors");
 app.use(cors());
-const API_KEY = "HLsUREqzA4KoXOLjLnfrcIgHzr5V8jHm";
-var clientId = '34e9e8852d1941ddb3c3f01fbd60368a',
-    clientSecret = 'a212aa62168c498aa4aa5fed1b95a434';
+const API_KEY = "dummy";
+var clientId = 'dummy',
+    clientSecret = 'dummy';
 var spotifyApi = new SpotifyWebApi({
   clientId: clientId,
   clientSecret: clientSecret
@@ -42,7 +42,7 @@ setSpotifyToken();
 //tokenRefreshInterval = setInterval(setSpotifyToken, 1000 * 60 * 60);
 
 async function getLocationGoogle(address) {
-  var url = "https://maps.googleapis.com/maps/api/geocode/json?address=" + address + "&key=AIzaSyBTaWgXOh-VVi_1DYikSYEeBTuXhCMJ_0E";
+  var url = "https://maps.googleapis.com/maps/api/geocode/json?address=" + address + "&key=dummy";
   var res = [];
   await axios
       .get(url)
